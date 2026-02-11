@@ -1,9 +1,9 @@
 <?php
 class Database {
-    private static $host = "bihel4lxwhpgwrl8bu7b-mysql.services.clever-cloud.com";
-    private static $db_name = "bihel4lxwhpgwrl8bu7b";
-    private static $user = "uttslqt4mxe5gvpu";
-    private static $password = "iBYr3TGXPBgRZkBVXf6v";
+    private static $host = "localhost";
+    private static $db_name = "gestion_citas";
+    private static $user = "root";
+    private static $password = "";
 
     public static function conectar() {
         try {
@@ -14,5 +14,6 @@ class Database {
             die("Error de conexión: " . $e->getMessage());
         }
     }
-
 }
+
+
